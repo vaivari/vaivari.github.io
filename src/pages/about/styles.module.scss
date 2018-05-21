@@ -1,0 +1,28 @@
+.root {
+  margin-bottom: 80px;
+
+  .contact {
+    margin-top: 80px;
+    text-align: center;
+
+    .details > span {
+      margin: 0 10px;
+    }
+  }
+
+  h2 {
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.3em;
+    color: #4a4a4a;
+  }
+
+  p {
+    color: #4a4a4a;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.7em;
+  }
+}

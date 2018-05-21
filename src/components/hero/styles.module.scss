@@ -1,0 +1,22 @@
+.root {
+  padding: 0 8%;
+
+  @media (max-width: 1024px) {
+    padding: 0 !important;
+  }
+
+  img {
+    width: 142px;
+  }
+
+  h1 {
+    background: linear-gradient(to right, #FC466B, #3F5EFB);
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 1.3em;
+    color: #4a4a4a;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
