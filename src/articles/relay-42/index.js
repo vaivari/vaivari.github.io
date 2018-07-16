@@ -69,6 +69,10 @@ export default () => (
         document in InVision and wrote guidelines how components should behave,
         added resources where possible.
       </p>
+      <div
+        className={styles['small-image']}
+        style={{ backgroundImage: 'url(/assets/relay42/dropdown.png)' }}
+      />
     </section>
   </div>
 );
