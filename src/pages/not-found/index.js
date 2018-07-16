@@ -3,14 +3,16 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
+import Layout from 'src/components/layout';
+
 export default () => {
   return (
-    <div>
+    <Layout>
       <Helmet>
         <title>404</title>
       </Helmet>
 
       <p>Page not found</p>
-    </div>
+    </Layout>
   );
 };

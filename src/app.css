@@ -15,6 +15,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+html {
+  border: 10px solid blue;
+  min-height: 100vh;
+}
+
 hr {
   background-color: #c1c1c1;
   border: 1px;
@@ -42,12 +47,4 @@ a {
 
 a:hover {
   color: #53adfb;
-}
-
-.animated-page-wrapper {
-  position: absolute;
-  top: 62px;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }

@@ -1,0 +1,25 @@
+.root {
+  padding: 50px 8% 0 8%;
+  font-weight: 300;
+  color: #4a4a4a;
+  margin-bottom: 3rem;
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .box {
+    h3 {
+      margin-top: 0;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+    }
+  }
+}

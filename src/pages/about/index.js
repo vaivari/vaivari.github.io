@@ -4,11 +4,15 @@ import React from 'react';
 import { withRouter } from 'react-router';
 
 import Layout from 'src/components/layout';
+import Footer from 'src/components/footer';
+import GoBack from 'src/components/go-back';
+
 import styles from './styles.module.scss';
 
 export const MainPage = () => {
   return (
     <Layout>
+      <GoBack to="/" />
       <section className={styles.root}>
         <h2>Hello, I’m Vaiva. I am a UX designer and a volunteer based in Amsterdam.</h2>
         <p>I learned about communication and information during my Public Relations studies and observed closely how people use technologies while working as a IT support analyst.</p>
@@ -21,16 +25,9 @@ export const MainPage = () => {
         <p>
           <a href="https://www.meetup.com/Ladies-that-UX-Amsterdam" target="_blank">Ladies that UX Amsterdam</a> advocates for diversity and promotes female talent by giving women a platform for public speaking and support each other in various stages of their careers. Our community is inclusive to all background, gender, age, race, and expertise.
         </p>
-
-        <div className={styles.contact}>
-          <p><i className="fa fa-paper-plane" /> Contact</p>
-          <div className={styles.details}>
-            <a href="mailto:vaiva.rivas@gmail.com">vaiva.rivas@gmail.com</a>
-            <span>/</span>
-            <a href="https://nl.linkedin.com/in/vaiva-rivas-1731382a" target="_blank">Linkedin</a>
-          </div>
-        </div>
       </section>
+
+      <Footer />
     </Layout>
   );
 };

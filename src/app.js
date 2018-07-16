@@ -6,6 +6,7 @@ import 'normalize.css';
 import './app.css';
 
 import MainPage from './pages/main';
+import ArticlePage from './pages/article';
 import AboutPage from './pages/about';
 import NotFoundPage from './pages/not-found';
 
@@ -17,6 +18,7 @@ const App = () => {
       <Switch>
         <Route path="/" exact component={MainPage} />
         <Route path="/about" component={AboutPage} />
+        <Route path="/work/:articleId" component={ArticlePage} />
 
         {/* Catch all unmatched routes */}
         <Route component={NotFoundPage} />

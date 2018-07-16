@@ -1,0 +1,29 @@
+import React from 'react';
+import { Redirect } from 'react-router-dom';
+
+import Layout from 'src/components/layout';
+import GoBack from 'src/components/go-back';
+
+import Relay42 from 'src/articles/relay-42';
+
+const PAGES = {
+  'relay-42': Relay42
+};
+
+export const ArticlePage = ({ match, ...props }) => {
+  const Handler = PAGES[match.params.articleId];
+
+  if (!Handler) {
+    console.warn(`Page ${match.params.articleId} not found.`);
+    return <Redirect to="/404"/>;
+  }
+
+  return (
+    <Layout forArticle>
+      <GoBack to="/" />
+      <Handler {...props} />
+    </Layout>
+  );
+};
+
+export default ArticlePage;
