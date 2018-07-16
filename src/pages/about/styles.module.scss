@@ -2,13 +2,22 @@
   margin-bottom: 80px;
   padding: 0 8%;
 
+  .holaContainer {
+    text-align: center;
+  }
+
   h2 {
-    margin-top: 6rem;
     margin-bottom: 8rem;
     font-weight: 300;
     font-size: 40px;
     line-height: 1.3em;
     color: #4a4a4a;
+    text-align: center;
+  }
+
+  img {
+    margin-top: 6rem;
+    height: 200px;
   }
 
   p {

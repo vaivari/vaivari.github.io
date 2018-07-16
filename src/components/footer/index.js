@@ -16,15 +16,21 @@ export default () => (
       </div>
       <div className={styles.box}>
         <h3>Email — </h3>
-        <span>
-          vaiva.rivas[at]gmail.com
-        </span>
+        <span>vaiva.rivas[at]gmail.com</span>
       </div>
       <div className={styles.box}>
         <h3>Social — </h3>
         <span>
           <ul>
-            <li><a href="https://www.linkedin.com/in/vaiva-rivas-1731382a" target="_blank">LinkedIn</a></li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/vaiva-rivas-1731382a"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </li>
           </ul>
         </span>
       </div>
