@@ -2,20 +2,60 @@
   margin-bottom: 80px;
   padding: 0 8%;
 
-  h2 {
+  section {
+    margin-top: 4rem;
+  }
+
+  h4 {
     margin-top: 6rem;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  h2 {
+    margin: 0;
     font-weight: 300;
-    font-size: 40px;
-    line-height: 1.3em;
+    font-size: 35px;
+    line-height: 1.2em;
     color: #4a4a4a;
   }
 
+  h3 {
+    font-weight: 500;
+  }
+
   p {
+    padding: 17px 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3em;
     color: #4a4a4a;
-    font-weight: 300;
-    font-size: 18px;
-    letter-spacing: 0px;
-    line-height: 1.7em;
+    font-weight: 200;
+  }
+
+  .big-image-wrapper {
+    height: 80vh;
+    margin-bottom: 4rem;
+  }
+
+  .big-image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 80vh;
+    width: calc(100vw - 35px);
+    left: 10px;
+  }
+
+  .small-image {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-top: 3rem;
   }
 }

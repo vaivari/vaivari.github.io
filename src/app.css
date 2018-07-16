@@ -41,10 +41,11 @@ hr {
 }
 
 a {
-  color: #53adfb;
+  color: #f14773;
   text-decoration: none;
 }
 
 a:hover {
-  color: #53adfb;
+  color: #f14773;
+  text-decoration: underline;
 }
