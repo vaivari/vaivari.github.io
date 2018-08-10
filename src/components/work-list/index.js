@@ -14,6 +14,23 @@ export default () => (
           <p>Relay42</p>
         </Link>
       </li>
+      <li>
+        <Link to="/work/customer-journey" className={styles['hvr-forward']}>
+          <h2>Redesigned Customer Journey module</h2>
+          <p>Relay42</p>
+        </Link>
+      </li>
+      <li>
+        <a
+          className={styles['hvr-forward']}
+          href="https://projects.invisionapp.com/boards/2J1WJFU4UYSZ8/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>Palabras: personal dictionary for language students</h2>
+          <p>Personal Project</p>
+        </a>
+      </li>
     </ul>
   </div>
 );

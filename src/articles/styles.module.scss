@@ -36,6 +36,12 @@
     font-weight: 200;
   }
 
+  small {
+    transform: translateY(-63px);
+    display: inline-block;
+    font-size: 13px;
+  }
+
   .big-image-wrapper {
     height: 80vh;
     margin-bottom: 4rem;

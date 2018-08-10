@@ -10,9 +10,18 @@ export default () => (
     <div className={styles.wrapper}>
       <div className={styles.box}>
         <h3>Vaiva Rivas — </h3>
-        <span>
+        <div>
           <Link to="/about">About me</Link>
-        </span>
+        </div>
+        <div style={{ marginTop: 10 }}>
+          <a
+            href="https://standardresume.co/vaivari"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CV
+          </a>
+        </div>
       </div>
       <div className={styles.box}>
         <h3>Email — </h3>
