@@ -1,9 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import styles from '../styles.module.scss';
 
 export default () => (
   <div className={styles.root}>
+    <Helmet>
+      <title>Design System</title>
+    </Helmet>
     <header>
       <h4>Vaiva Rivas</h4>
       <h2>Created Design System for the Relay42 platform</h2>

@@ -1,6 +1,7 @@
 // @flow
 
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { withRouter } from 'react-router';
 
 import Layout from 'src/components/layout';
@@ -12,6 +13,9 @@ import styles from './styles.module.scss';
 export const MainPage = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>About me</title>
+      </Helmet>
       <GoBack to="/" />
       <section className={styles.root}>
         <div className={styles.holaContainer}>
