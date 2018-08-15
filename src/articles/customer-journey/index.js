@@ -22,9 +22,9 @@ export default () => (
       />
       <h3>Company</h3>
       <p>
-        Relay42 provides an advanced tag and data management software platform
-        which enables online marketers to collect and manage valuable data fast,
-        efficiently and across channels.
+        Relay42 provides an advanced tagging and data management software
+        platform which enables online marketers to collect and manage valuable
+        data fast, efficiently and across different channels.
       </p>
 
       <Image
@@ -36,18 +36,18 @@ export default () => (
       />
       <h3>Context and my role</h3>
       <p>
-        When I joined, Relay42 was transitioning from a startup to a scaleup
+        When I joined, Relay42 was transitioning from a startup into a scaleup
         phase. The company and it’s ambitions in terms of product and new
-        features development grew very fast. There was a work in progress of
-        building 2 new modules for the platform and improvement works for the
-        current ones.
+        features development grew very fast. Development and engineering teams
+        at that time were building 2 new modules for the platform and improving
+        the current ones.
       </p>
       <p>
-        As I was the first in-house designer in the company I had to establish
-        the UX/UI Design place in the product development processes. I was and
+        As I was the first in-house designer in the company, I had to establish
+        the role of UX Design within the product development process. I was and
         still am an integral part of the Product team. My main role is to create
-        each feature from the beginning till the end and ensuring that although
-        the product is complex, the style is unified and user-friendly.
+        each feature from research until developer handover- ensuring that
+        although the product is complex, the style is unified and user-friendly.
       </p>
       <p>
         While building the Design System I simultaniously was redesigning the
@@ -76,7 +76,7 @@ export default () => (
         Also the module has to give an ability to dig deeper and see more
         details in terms of set up and results. Marketers should be able to see
         statistics and identify what channel or message is not working well for
-        the customers and give the answer why. Statistics and analytics are
+        the customers and answer why it's so. Statistics and analytics are
         required for each step.
       </p>
 
@@ -102,7 +102,7 @@ export default () => (
         Onboarding was another major UX challenge since I needed to show new
         users not only how to create customer journeys, but also how to get the
         most out of this complex tool. After observing a few onboarding
-        workshops that are held by our consultants to new clients I was tasked
+        workshops that were held by our consultants to new clients, I was tasked
         to create an onboarding experience that would serve as a reminder and
         would guide a new user who is trying to build a new journey for the
         first time.
@@ -127,8 +127,9 @@ export default () => (
       </p>
       <p>
         We are proud of our platform’s ability to show data movement in
-        real-time, therefor I’ve decided to show visually customer movement from
-        one step to another. The journey starts on the left side of the screen.
+        real-time, therefore I’ve decided to show visually a customer's movement
+        from one step to another. The journey starts on the left side of the
+        screen.
       </p>
       <p>
         If a marketer wants to have a better look at what’s happening in a
@@ -163,10 +164,10 @@ export default () => (
         "
       />
       <p style={{ marginTop: '1rem' }}>
-        For onboarding, I took into account that all new clients undergo a
-        training session and also best practice is to let users learn by doing
-        hence I decided to guide a user with UI, tips and explanations that
-        disappear after the first use or when a user clicks “got it”.
+        For onboarding, I took into account that all new clients go through a
+        training session and also that its good practice to let users learn by
+        doing. Hence I decided to guide the users with UI, tips and explanations
+        that disappear after the first use or when a user clicks “got it”.
       </p>
     </section>
   </div>

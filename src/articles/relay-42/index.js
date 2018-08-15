@@ -25,9 +25,9 @@ export default () => (
       />
       <h3>Company</h3>
       <p>
-        Relay42 provides an advanced tag and data management software platform
-        which enables online marketers to collect and manage valuable data fast,
-        efficiently and across channels.
+        Relay42 provides an advanced tagging and data management software
+        platform which enables online marketers to collect and manage valuable
+        data fast, efficiently and across different channels.
       </p>
 
       <Image
@@ -37,24 +37,24 @@ export default () => (
       />
       <h3>Context and my role</h3>
       <p>
-        When I joined, Relay42 was transitioning from a startup to a scaleup
+        When I joined, Relay42 was transitioning from a startup into a scaleup
         phase. The company and it’s ambitions in terms of product and new
         features development grew very fast. Development and engineering teams
-        were building 2 new modules for the platform and improving the current
-        ones.
+        at that time were building 2 new modules for the platform and improving
+        the current ones.
       </p>
       <p>
-        As I was the first in-house designer in the company I had to establish
-        the UX Design place in the product development process. I was and still
-        am an integral part of the Product team. My main role is to create each
-        feature from the beginning till the end and ensuring that although the
-        product is complex, the style is unified and user-friendly.
+        As I was the first in-house designer in the company, I had to establish
+        the role of UX Design within the product development process. I am an
+        integral part of the Product team- my main role is to create each
+        feature from research until developer handover- ensuring that although
+        the product is complex, the style is unified and user-friendly.
       </p>
       <p>
         Having in mind company’s plans and seeing the current platform, I’ve
         decided to start working on a new Design System which would solve the
-        majority of problems in the existing modules and also would set the path
-        for the new ones that I was expected to design.
+        majority of the inconsistency problems in the existing modules and also
+        would set the path for the new ones that I was expected to design.
       </p>
 
       <Image
@@ -69,18 +69,18 @@ export default () => (
       />
       <h3>Design Challenges</h3>
       <p>
-        One of the biggest tasks was to make visual interface consistent across
-        different modules. I had to unify look and feel of the platform even
-        though each module helps users to achieve different goals.
+        One of the biggest tasks I had was to make the user interface consistent
+        across different modules. I had to unify look and feel of the platform
+        even though each module helps users to achieve different goals.
       </p>
       <p>
         The platform is mainly used by marketers who have a technical background
         and are used to the current flow/logic which was designed by developers.
         The challenge was to balance good design and UX with the habits of the
         existing users. We needed to create visually appealing interface with
-        visual cues and information hierarchy that would be usable and intuitive
-        for marketers without technical background and also would be accepted by
-        our power users.
+        visual cues and information hierarchy that would also be usable and
+        intuitive for marketers without technical background and also would be
+        accepted by our power users.
       </p>
 
       <Image
@@ -96,19 +96,19 @@ export default () => (
       />
       <h3>Design Solutions</h3>
       <p>
-        After research about design systems and reviews of the existing ones
-        (Atlassian, Polaris) I have audited the whole platform. I examined and
-        color coded all components, also noted down obvious logic and design
-        errors. This helped me to know where I can find variations of each of
-        them.
+        After researching about design systems and reviewing a few of them
+        belonging to big companies like Atlassian, Polaris, etc- I have audited
+        the whole platform. I examined and color coded all components, also
+        noted down obvious logic and design errors. This helped me to know where
+        I can find variations of each of them.
       </p>
       <p>
         I chose 4 the most complicated screens in our platform to redesign.
-        These screens contained the most common items: forms, tables, most of
-        the times both, had to include “create new” and edit functionalities. I
-        have added visual cues and improved interactions that are understandable
-        but also allows fast navigation for power users. Afterwards I designed
-        the rest of the components.
+        These screens contained the most common items: forms, tables (most of
+        the times, both) and had to include “create new” and edit
+        functionalities. I have added visual cues and improved interactions that
+        are understandable but also allows fast navigation for power users.
+        Afterwards I designed the rest of the components.
       </p>
 
       <Image
