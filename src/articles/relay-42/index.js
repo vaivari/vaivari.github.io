@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
+import Image from 'src/components/image';
 import styles from '../styles.module.scss';
 
 export default () => (
@@ -14,16 +15,14 @@ export default () => (
       <p>Relay42</p>
     </header>
     <section>
-      <div className={styles['big-image-wrapper']}>
-        <div
-          className={styles['big-image']}
-          style={{ backgroundImage: 'url(/assets/relay42/main-header.png)' }}
-        />
-      </div>
-      <small>
-        Close ups of the design system that shows different states of buttons
-        and precise measurements of form controls and dropdows.
-      </small>
+      <Image
+        img="/assets/relay42/main-header.png"
+        alt="Design images"
+        small="
+          Close ups of the design system that shows different states of buttons
+          and precise measurements of form controls and dropdows.
+        "
+      />
       <h3>Company</h3>
       <p>
         Relay42 provides an advanced tag and data management software platform
@@ -31,11 +30,11 @@ export default () => (
         efficiently and across channels.
       </p>
 
-      <div
-        className={styles['small-image']}
-        style={{ backgroundImage: 'url(/assets/relay42/audit.png)' }}
+      <Image
+        img="/assets/relay42/audit.png"
+        alt="Audit"
+        small="Audit of the platform."
       />
-      <small>Audit of the platform.</small>
       <h3>Context and my role</h3>
       <p>
         When I joined, Relay42 was transitioning from a startup to a scaleup
@@ -58,16 +57,16 @@ export default () => (
         for the new ones that I was expected to design.
       </p>
 
-      <div
-        className={styles['small-image']}
-        style={{ backgroundImage: 'url(/assets/relay42/form-exploration.png)' }}
+      <Image
+        img="/assets/relay42/form-exploration.png"
+        alt="Form exploration"
+        small="
+          Form design exploration. Chose the middle one because a) the form is
+          shorter; b) users often need to return to the form to make changes so
+          it’s easier to review labels; c) Easier for a user to identify which
+          label belongs to which input field.
+        "
       />
-      <small>
-        Form design exploration. Chose the middle one because a) the form is
-        shorter; b) users often need to return to the form to make changes so
-        it’s easier to review labels; c) Easier for a user to identify which
-        label belongs to which input field.
-      </small>
       <h3>Design Challenges</h3>
       <p>
         One of the biggest tasks was to make visual interface consistent across
@@ -83,18 +82,18 @@ export default () => (
         for marketers without technical background and also would be accepted by
         our power users.
       </p>
-      <div
-        className={styles['small-image']}
-        style={{ backgroundImage: 'url(/assets/relay42/dropdown.png)' }}
-      />
-      <small>
-        Dropdown behaviour: 1. User knows that they can type to search or type
-        to create new; 2. User can place a cursor and it will suggest the most
-        recent selections; 3. user can start typing to search for entries; 4. If
-        a user cannot find an existing entry, they can create a new one; 5.
-        “Create new” slides down; 6. Created entry is selected.
-      </small>
 
+      <Image
+        img="/assets/relay42/dropdown.png"
+        alt="Dropdown behaviour"
+        small="
+          Dropdown behaviour: 1. User knows that they can type to search or type
+          to create new; 2. User can place a cursor and it will suggest the most
+          recent selections; 3. user can start typing to search for entries; 4. If
+          a user cannot find an existing entry, they can create a new one; 5.
+          “Create new” slides down; 6. Created entry is selected.
+        "
+      />
       <h3>Design Solutions</h3>
       <p>
         After research about design systems and reviews of the existing ones
@@ -112,15 +111,11 @@ export default () => (
         the rest of the components.
       </p>
 
-      <div
-        className={styles['small-image']}
-        style={{ backgroundImage: 'url(/assets/relay42/design-system.jpg)' }}
+      <Image
+        img="/assets/relay42/design-system.jpg"
+        alt="Design System"
+        small="Design system. Left to right: colors, buttons, dropdowns, form controls, tables, error states."
       />
-      <small>
-        Design system. Left to right: colors, buttons, dropdowns, form controls,
-        tables, error states.
-      </small>
-
       <p>
         In order to increase collaboaration with engineers and to be able to
         design new modules faster I have created a shared living Style Guide

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
+import Image from 'src/components/image';
 import styles from '../styles.module.scss';
 
 export default () => (
@@ -14,16 +15,11 @@ export default () => (
       <p>Relay42</p>
     </header>
     <section>
-      <div className={styles['big-image-wrapper']}>
-        <div
-          className={styles['big-image']}
-          style={{
-            backgroundImage: 'url(/assets/customer-journey/hero-image.png)'
-          }}
-        />
-      </div>
-      <small>Customer journey screen</small>
-
+      <Image
+        img="/assets/customer-journey/hero-image.png"
+        alt=""
+        small="Customer journey screen"
+      />
       <h3>Company</h3>
       <p>
         Relay42 provides an advanced tag and data management software platform
@@ -31,13 +27,13 @@ export default () => (
         efficiently and across channels.
       </p>
 
-      <div
-        className={styles['small-image']}
-        style={{
-          backgroundImage: 'url(/assets/customer-journey/cj-overview.jpg)'
-        }}
+      <Image
+        img="/assets/customer-journey/cj-overview.jpg"
+        alt=""
+        small="
+          Customer Journey overview explorations
+        "
       />
-      <small>Customer Journey overview explorations</small>
       <h3>Context and my role</h3>
       <p>
         When I joined, Relay42 was transitioning from a startup to a scaleup
@@ -59,14 +55,14 @@ export default () => (
         it connects all and provides functinality of some existing modules.
       </p>
 
-      <div
-        className={styles['small-image']}
-        style={{ backgroundImage: 'url(/assets/customer-journey/cj-flow.jpg)' }}
+      <Image
+        img="/assets/customer-journey/cj-flow.jpg"
+        alt=""
+        small="
+          Left: create a new journey flow. Right: view statistics of a step/node
+          flow
+        "
       />
-      <small>
-        Left: create a new journey flow. Right: view statistics of a step/node
-        flow
-      </small>
       <h3>Design Challenges</h3>
       <p>
         During the first meeting with stakeholders that I held to identify the
@@ -84,17 +80,16 @@ export default () => (
         required for each step.
       </p>
 
-      <div
-        className={styles['small-image']}
-        style={{ backgroundImage: 'url(/assets/customer-journey/kalina.jpg)' }}
+      <Image
+        img="/assets/customer-journey/kalina.jpg"
+        alt=""
+        small="
+          We discussed and then voted to decide what client needs are the most
+          important. All the requirements that the module needs to fulfil were
+          written by everyone beforehand.
+        "
       />
-      <small>
-        We discussed and then voted to decide what client needs are the most
-        important. All the requirements that the module needs to fulfil were
-        written by everyone beforehand.
-      </small>
-
-      <p>
+      <p style={{ marginTop: '1rem' }}>
         As Customer Journey module is a very powerful tool I needed to find the
         balance between complexity and simplicity. Our users need to know what
         features are at their disposal, but also I didn’t want to overwhelm them
@@ -113,15 +108,13 @@ export default () => (
         first time.
       </p>
 
-      <div
-        className={styles['small-image']}
-        style={{
-          backgroundImage:
-            'url(/assets/customer-journey/cj-overview-explained.jpg)'
-        }}
+      <Image
+        img="/assets/customer-journey/cj-overview-explained.jpg"
+        alt=""
+        small="
+          Customer Journey screen explained
+        "
       />
-      <small>Customer Journey screen explained</small>
-
       <h3>Design Solutions</h3>
 
       <p>
@@ -143,16 +136,14 @@ export default () => (
         is the current situation and analyse it historically.
       </p>
 
-      <div
-        className={styles['small-image']}
-        style={{
-          backgroundImage:
-            'url(/assets/customer-journey/audience-explained.jpg)'
-        }}
+      <Image
+        img="/assets/customer-journey/audience-explained.jpg"
+        alt=""
+        small="
+          First part of creating a new step in a customer journey
+        "
       />
-      <small>First part of creating a new step in a customer journey</small>
-
-      <p>
+      <p style={{ marginTop: '1rem' }}>
         The power of the module lies in the ability to set very granular rules
         of what kind of customers the marketer wants to target in a specific
         step. Users have an ability to add rules, edit a single rule while still
@@ -163,19 +154,15 @@ export default () => (
         progress bar in the step creation process.
       </p>
 
-      <div
-        className={styles['small-image']}
-        style={{
-          backgroundImage: 'url(/assets/customer-journey/onboarding.jpg)'
-        }}
+      <Image
+        img="/assets/customer-journey/onboarding.jpg"
+        alt=""
+        small="
+          Onboarding tips guide user to create a goal first and then start
+          building customer journey
+        "
       />
-
-      <small>
-        Onboarding tips guide user to create a goal first and then start
-        building customer journey
-      </small>
-
-      <p>
+      <p style={{ marginTop: '1rem' }}>
         For onboarding, I took into account that all new clients undergo a
         training session and also best practice is to let users learn by doing
         hence I decided to guide a user with UI, tips and explanations that
