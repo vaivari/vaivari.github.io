@@ -15,7 +15,7 @@ export default () => (
         </div>
         <div style={{ marginTop: 10 }}>
           <a
-            href="https://standardresume.co/vaivari"
+            href="/cv-vaiva_rivas.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
