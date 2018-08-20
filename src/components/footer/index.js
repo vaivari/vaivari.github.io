@@ -19,7 +19,7 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            CV
+            Resume
           </a>
         </div>
       </div>

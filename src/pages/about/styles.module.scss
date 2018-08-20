@@ -18,6 +18,7 @@
   img {
     margin-top: 6rem;
     height: 200px;
+    border-radius: 100%;
   }
 
   p {
@@ -26,5 +27,9 @@
     font-size: 18px;
     letter-spacing: 0px;
     line-height: 1.7em;
+  }
+
+  hr {
+    margin-left: 0;
   }
 }
