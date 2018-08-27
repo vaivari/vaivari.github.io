@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { withRouter, Switch, Route } from 'react-router-dom';
-import withAnalytics, { initAnalytics } from 'react-with-analytics';
 
 import 'normalize.css';
 import './app.css';
@@ -10,8 +9,6 @@ import MainPage from './pages/main';
 import ArticlePage from './pages/article';
 import AboutPage from './pages/about';
 import NotFoundPage from './pages/not-found';
-
-initAnalytics('UA-124424414-1');
 
 const App = () => {
   return (
@@ -30,4 +27,4 @@ const App = () => {
   );
 };
 
-export default withRouter(withAnalytics(App));
+export default withRouter(App);

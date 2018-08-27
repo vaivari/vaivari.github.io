@@ -27,7 +27,6 @@
     "react-scripts": "1.1.4",
     "react-test-renderer": "^16.2.0",
     "react-transition-group": "^2.3.1",
-    "react-with-analytics": "^0.0.5",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
     "sass-loader": "^7.0.1"
