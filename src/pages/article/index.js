@@ -5,10 +5,12 @@ import Layout from 'src/components/layout';
 import GoBack from 'src/components/go-back';
 import Footer from 'src/components/footer';
 
+import MobiquityLogin from 'src/articles/mobiquity-login';
 import Relay42 from 'src/articles/relay-42';
 import CustomerJourney from 'src/articles/customer-journey';
 
 const PAGES = {
+  'mobiquity-login': MobiquityLogin,
   'relay-42': Relay42,
   'customer-journey': CustomerJourney
 };

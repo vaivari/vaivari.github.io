@@ -49,3 +49,11 @@ a:hover {
   color: #f14773;
   text-decoration: underline;
 }
+
+ul li {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3em;
+  color: #4a4a4a;
+  font-weight: 200;
+}

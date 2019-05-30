@@ -9,6 +9,12 @@ export default () => (
   <div className={styles.root}>
     <ul className={styles.list}>
       <li>
+        <Link to="/work/mobiquity-login" className={styles['hvr-forward']}>
+          <h2>Emoji story - original and secure login flow</h2>
+          <p>Design Concept</p>
+        </Link>
+      </li>
+      <li>
         <Link to="/work/relay-42" className={styles['hvr-forward']}>
           <h2>Created Design System for the Relay42 platform</h2>
           <p>Relay42</p>

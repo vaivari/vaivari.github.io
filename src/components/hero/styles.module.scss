@@ -7,14 +7,14 @@
   }
 
   h1 {
-    background: linear-gradient(to right, #FC466B, #3F5EFB);
     font-weight: 100;
     font-size: 40px;
     line-height: 1.3em;
-    color: #4a4a4a;
+    color: rgba(74,74,74,.76);
     margin-top: 6rem;
 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    >div {
+      color: #3f5efb;
+    }
   }
 }
